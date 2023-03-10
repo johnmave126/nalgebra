@@ -103,7 +103,7 @@ glam020        = { package = "glam", version = "0.20", optional = true }
 glam021        = { package = "glam", version = "0.21", optional = true }
 glam022        = { package = "glam", version = "0.22", optional = true }
 glam023        = { package = "glam", version = "0.23", optional = true }
-cust_core      = { version = "0.1", optional = true }
+cust_core      = { version = "0.1", optional = true, default-features = false }
 rayon          = { version = "1.6", optional = true }
 
 [dev-dependencies]
