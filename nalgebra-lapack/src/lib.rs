@@ -99,7 +99,7 @@ pub use self::eigen::Eigen;
 pub use self::generalized_eigenvalues::GeneralizedEigen;
 pub use self::hessenberg::Hessenberg;
 pub use self::lu::{LUScalar, LU};
-pub use self::qr::QR;
+pub use self::qr::{QR, QRReal, QRScalar};
 pub use self::qz::QZ;
 pub use self::schur::Schur;
 pub use self::svd::SVD;
